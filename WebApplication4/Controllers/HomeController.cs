@@ -14,9 +14,13 @@ namespace WebApplication4.Controllers
             return View();
         }
 
+        public IActionResult Index2()
+        {
+            return View();
+        }
+
         public IActionResult Error()
         {
-            var x = 2;
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
         }

@@ -26,6 +26,12 @@ namespace WebApplication4.Controllers
             });
         }
 
+        [HttpGet("[action]")]
+        public IEnumerable<string> Test123(int startDateIndex)
+        {
+            return new string[] { };
+        }
+
         public class WeatherForecast
         {
             public string DateFormatted { get; set; }
