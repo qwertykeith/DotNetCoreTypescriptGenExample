@@ -1,6 +1,6 @@
 # Nswag C#->Typescript generator
 
-This is a quick and dirty example of a .net core react app that will generate a typescript clients for your api when you save anything, not need to build.  I'm this could be improved a lot.. but felt the need to share the awesomeness.
+This is a quick and dirty example of a .net core react app that will generate a typescript clients for your api when you save anything, not need to build.  I'm sure this could be improved a lot.. but this was so easy to get going I felt the need to share the awesomeness.
 
 Note: I haven't tested this on any external build servers yet.. not sure what will happen there
 
