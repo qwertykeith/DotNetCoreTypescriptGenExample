@@ -53,7 +53,7 @@
       "useGetBaseUrlMethod": false,
       "baseUrlTokenName": "API_BASE_URL",
       "queryNullValue": "",
-      "output": "ClientApp/app/services.ts"
+      "output": "ClientApp/api/services.ts"
     }
   }
 }
