@@ -16,6 +16,7 @@ namespace WebApplication4.Controllers
 
         public IActionResult Error()
         {
+            var x = 2;
             ViewData["RequestId"] = Activity.Current?.Id ?? HttpContext.TraceIdentifier;
             return View();
         }
